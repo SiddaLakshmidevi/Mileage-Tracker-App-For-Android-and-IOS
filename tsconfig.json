@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["src/*"],
+      "lakshmi-hugo/*": ["./*"]
+    },
+    "target": "es5",
+    "module": "es2015", 
+    "jsx": "react",
+    "strict": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/screens/GenericErrors/ErrorScreen.tsx"],
+  "exclude": ["node_modules"],
+  "extends": "@react-native/typescript-config/tsconfig.json"
+}
